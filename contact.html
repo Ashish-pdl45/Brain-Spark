@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BRAIN SPARK</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">BRAIN <span class="spark">SPARK</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+                <li><a href="query-suggestions.html">QUERIES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="form-section">
+        <div class="form-container">
+            <h1 class="form-title">CONTACT US</h1>
+            <p class="form-subtitle">Establish connection with the core</p>
+
+            <form action="https://formspree.io/f/xyzabc123" method="POST">
+                <div class="form-group">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">PHONE (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">SUBJECT</label>
+                    <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="Tell us your thoughts..." rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">INITIATE TRANSMISSION</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">BRAIN SPARK</p>
+        <p>&copy; 2024 All Rights Reserved. Exploring the Unknown.</p>

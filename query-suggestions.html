@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queries & Suggestions - BRAIN SPARK</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">BRAIN <span class="spark">SPARK</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="query-suggestions.html" class="active">QUERIES</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="form-section">
+        <div class="form-container">
+            <h1 class="form-title secondary">QUERIES & IDEAS</h1>
+            <p class="form-subtitle">Expand the collective intelligence</p>
+
+            <form action="https://formspree.io/f/xyzabc123" method="POST">
+                <div class="form-group">
+                    <label for="type">TYPE OF TRANSMISSION</label>
+                    <select id="type" name="type" required>
+                        <option value="">Select a category</option>
+                        <option value="general-query">General Query</option>
+                        <option value="new-topic">New Topic Suggestion</option>
+                        <option value="improvement">Website Improvement</option>
+                        <option value="collaboration">Collaboration Request</option>
+                        <option value="article-idea">Article Idea</option>
+                        <option value="partnership">Partnership Opportunity</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">SUBJECT</label>
+                    <input type="text" id="subject" name="subject" placeholder="Brief title of your thought" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">DETAILS</label>
+                    <textarea id="details" name="details" placeholder="Elaborate on your idea, query, or suggestion..." rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-secondary">UPLOAD DATA</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">BRAIN SPARK</p>
+        <p>&copy; 2024 All Rights Reserved. Exploring the Unknown.</p>
